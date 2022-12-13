@@ -6,7 +6,7 @@ app.use('/public',express.static('public'))
 
 
 //setting server
-app.listen(8080,()=>console.log("listning on 8000")) 
+app.listen(process.env.PORT||8080,()=>console.log("listning on 8000")) 
 app.set("view engen","ejs")
 app.set("views",path.join(__dirname,"/views"))
 
