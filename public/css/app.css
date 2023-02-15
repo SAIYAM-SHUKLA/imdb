@@ -1,5 +1,9 @@
 body{
-background-image: url(https://images.unsplash.com/photo-1634655377962-e6e7b446e7e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFjayUyMGdyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+background-image: url(images/back.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+}
+.head{
+    font-family: 'Julee', cursive;
+
 }
